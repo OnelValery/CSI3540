@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #6A5ACD; /* Slate Blue */
+    color: white;
+    padding: 2rem;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    border: 3px solid white;
+}
+
+.header-info h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header-info p {
+    margin: 0.5rem 0;
+}
+
+.header-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-info a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #6A5ACD; /* Slate Blue */
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+section h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+/* Style for all Lists */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    padding-left: 1.2rem;
+    position: relative;
+    font-weight: normal;
+}
+
+ul li:before {
+    content: "•";
+    color: #6A5ACD; /* Slate Blue */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #6A5ACD; /* Slate Blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Section Education */
+.education-item {
+    background-color: white;
+   
+}
